@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+      <form class="form-inline col-sm-11">
+        <div name="fn" >
+          <div class="col-sm-2">
+            <label for="fn" class="control-label col-sm-9">Student name</label>
+          </div>
+
+      <div class="form-group col-sm-3">
+       <div class="input-group input-group-lg">
+         <span class="input-group-addon">
+           <span class="fa fa-user"></span>
+         </span>
+         <input class="form-control" type="text" placeholder="First name">
+       </div>
+     </div>
+
+     <div class="form-group col-sm-3">
+      <div class="input-group input-group-lg">
+        <span class="input-group-addon">
+          <span class="fa fa-user"></span>
+        </span>
+        <input class="form-control" type="text" placeholder="Second name">
+      </div>
+    </div>
+      </div>
+     </form>
+
+     <form class="form-horizontal col-sm-11" role="form">
+
+        <div class="form-group">
+          <br>
+          <div class="col-sm-2">
+            <label for="bd" class="control-label col-sm-9">Birth day</label>
+          </div>
+
+
+          <div class="col-sm-6">
+            <input type="date" class="form-control input-md" name="calendar" placeholder="mm/dd/yyyy">
+          </div>
+        </div>
+      </form>
+
+      <form class="form-horizontal col-sm-11" role="form">
+
+         <div class="form-group">
+           <br>
+           <div class="col-sm-2">
+             <label for="g-r" class="control-label col-sm-9">Gender</label>
+           </div>
+
+
+           <div class="col-sm-6">
+              <select class="selectpicker  form-control input-md" name="g-r">
+               <option value="man">Man</option>
+               <option value="wooman">Woman</option>
+              </select>
+           </div>
+         </div>
+       </form>
+
+       <form class="form-inline col-sm-11">
+         <div name="as" >
+           <div class="col-sm-2">
+             <label for="as" class="control-label col-sm-9">Address</label>
+           </div>
+
+       <div class="form-group col-sm-3">
+        <div class="input-group">
+          <span class="input-group-addon">
+            <span class="fa fa-flag"></span>
+          </span>
+          <input class="form-control" type="text" placeholder="Country">
+        </div>
+      </div>
+
+      <div class="form-group col-sm-3">
+       <div class="input-group">
+         <span class="input-group-addon">
+           <span class="fa fa-home"></span>
+         </span>
+         <input class="form-control" type="text" placeholder="City">
+       </div>
+     </div>
+       </div>
+      </form>
+
+      <form class="form-inline col-sm-11">
+      <div class="col-sm-2">
+        <label for="ass" class="control-label col-sm-9"></label>
+      </div>
+        <div name="ass">
+      <div class="form-group col-lg-15">
+       <div class="input-group col-lg-12">
+
+         <input class="form-control" type="text" placeholder="Country">
+       </div>
+     </div>
+
+     <div class="form-group col-lg-15">
+      <div class="input-group col-lg-10">
+        <input class="form-control" type="text" placeholder="City">
+      </div>
+    </div>
+      </div>
+     </form>
+
+     <form class="form-horizontal col-sm-11" role="form">
+
+        <div class="form-group">
+
+          <div class="col-sm-2">
+            <label for="sa" class="control-label col-sm-9"></label>
+          </div>
+
+
+          <div class="col-sm-6">
+            <input type="text" class="form-control " name="sa" placeholder="Street address">
+          </div>
+        </div>
+      </form>
+
+      <form role="form" class="form-horizontal col-sm-11">
+        <div class="form-group">
+          <div class="col-sm-2">
+            <label for="se" class="col-sm-2">Student email</label>
+          </div>
+               <div class="form-group col-sm-6">
+                <div class="input-group input-group-lg">
+              <span class="input-group-addon">
+               <span class="glyphicon glyphicon-envelope"></span>
+             </span>
+           <input class="form-control" type="text" placeholder="Email address">
+       </div>
+     </div>
+   </div>
+       </form>
+       <form class="form-inline col-sm-12">
+         <div name="as" >
+             <label for="as" class="col-sm-2">Addtional text</label>
+             <div class="input-group input-group-lg">
+             <textarea name="message" rows="3" cols="40"></textarea>
+         </div>
+       </div>
+
+        <div class="checkbox">
+          <label><input type="checkbox">remember me</label>
+        </div>
+
+
+        <a href="./index.html"><button type="submit" name="button" class="btn btn-success">Registration</button></a>
+
+  </div>
+</body>
+</html>
